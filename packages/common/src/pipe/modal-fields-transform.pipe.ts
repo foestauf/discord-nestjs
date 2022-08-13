@@ -7,7 +7,7 @@ import { Inject, Injectable, Optional } from '@nestjs/common';
 import { ClassTransformOptions, plainToInstance } from 'class-transformer';
 import { ModalSubmitInteraction } from 'discord.js';
 
-import { TRANSFORMER_OPTION } from '../contants/transformer-options.constant';
+import { TRANSFORMER_OPTION } from '../constants/transformer-options.constant';
 
 @Injectable()
 export class ModalFieldsTransformPipe implements DiscordPipeTransform {
